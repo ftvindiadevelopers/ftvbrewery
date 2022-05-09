@@ -1,0 +1,23 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Poppins Light";
+}
+
+body {
+  background-color: black;
+}
+
+@import "_fonts.scss";
+
+.section {
+  min-height: 100vh;
+  background-color: black;
+}
+
+.m-readmore {
+  font-family: inherit;
+}
+
+@import "_header";
+@import "_footer";
